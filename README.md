@@ -2,7 +2,7 @@
 
 **RETROACTIVELY** doing AOC 2019 while waiting for AOC 2020 problems :')
 
-This will also be a playground for me to learn new languages; I will track that problems i did in which languages below:
+This will also be a playground for me to learn new languages; I will track what problems i did in which languages below:
 
 | Problem Set | Java | Go | C++ | Kotlin | Rust | 
 | -- | -- | -- | -- | -- | -- |
