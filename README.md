@@ -1,3 +1,9 @@
+<style>
+table {
+    width:100%;
+}
+</style>
+
 # Advent Of Code 2019
 
 **RETROACTIVELY** doing AOC 2019 while waiting for AOC 2020 problems :')
