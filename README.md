@@ -5,7 +5,7 @@
 This will also be a playground for me to learn new languages; I will track that problems i did in which languages below:
 
 | Problem Set | Java | Go | C++ | Kotlin | Rust | 
-| ----------- | ----------- |
+| -- | -- | -- | -- | -- | -- |
 | 1a | :heavy_check_mark: | :heavy_check_mark: |  |  |  |
 | 1b | :heavy_check_mark: | :heavy_check_mark: |  |  |  |
 | 2a | :heavy_check_mark: |  |  |  |  |
