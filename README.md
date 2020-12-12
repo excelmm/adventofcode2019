@@ -11,7 +11,7 @@ This will also be a playground for me to learn new languages. I will track what 
 | 2 | :heavy_check_mark: |  |  |  |  |  |
 | 3 | :heavy_check_mark: |  |  |  |  |  |
 | 4 |  | :heavy_check_mark: |  |  |  |  |
-| 5 |  |  |  |  |  |  |
+| 5 |  |  |  | :heavy_check_mark: |  |  |
 | 6 |  |  |  |  |  |  |
 | 7 |  |  |  |  |  |  |
 | 8 |  |  |  |  |  |  |
