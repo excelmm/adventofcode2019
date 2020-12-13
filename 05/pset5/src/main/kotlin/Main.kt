@@ -1,5 +1,5 @@
 import java.io.File
-import java.lang.Math.abs
+import kotlin.math.abs
 
 fun main() {
     val stream = File("input.txt").readLines()
@@ -22,20 +22,18 @@ fun main() {
             val mode2 : Int  = ((current / 1000) % 10)
             val mode3 : Int  = ((current / 10000) % 10)
             val par1 = (if (mode1 == 1) input[i + 1] else input[abs(input[i + 1])])
-            if (op == 1) {
-                val par2 = (if (mode2 == 1) input[i + 2] else input[abs(input[i + 2])])
-                val par3 = (if (mode3 == 1) i + 3 else abs(input[i + 3]))
-                input[par3] = par1 + par2
-            } else if (op == 2) {
-                val par2 = (if (mode2 == 1) input[i + 2] else input[abs(input[i + 2])])
-                val par3 = (if (mode3 == 1) i + 3 else abs(input[i + 3]))
-                input[par3] = par1 * par2
-            } else if (op == 3) {
-                input[par1] = readLine()!!.toInt()
-            } else if (op == 4) {
-                println(input[input[i + 1]])
-            } else {
-                break
+            var par2 = 0
+            var par3 = 0
+            if (op == 1 || op == 2) {
+                par2 = (if (mode2 == 1) input[i + 2] else input[abs(input[i + 2])])
+                par3 = (if (mode3 == 1) i + 3 else abs(input[i + 3]))
+            }
+            when (op) {
+                1 -> input[par3] = par1 + par2
+                2 -> input[par3] = par1 * par2
+                3 -> input[par1] = readLine()!!.toInt()
+                4 -> println(input[input[i + 1]])
+                else -> break
             }
         }
 
