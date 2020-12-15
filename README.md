@@ -12,7 +12,7 @@ This will also be a playground for me to learn new languages. I will track what 
 | 3 | :heavy_check_mark: |  |  |  |  |  |
 | 4 |  | :heavy_check_mark: |  |  |  |  |
 | 5 |  |  |  | :heavy_check_mark: |  |  |
-| 6 |  | 1/2 |  |  |  |  |
+| 6 |  | 1/2 |  | :heavy_check_mark: |  |  |
 | 7 |  |  |  |  |  |  |
 | 8 |  |  |  |  |  |  |
 | 9 |  |  |  |  |  |  |
