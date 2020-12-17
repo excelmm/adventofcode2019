@@ -15,5 +15,5 @@ This will also be a playground for me to learn new languages. I will track what 
 | 6 |  | 1/2 |  |  |  |  |
 | 7 |  |  | :heavy_check_mark: |  |  |  |
 | 8 |  |  |  |  |  | :heavy_check_mark: |
-| 9 | [x] |  | :heavy_check_mark: |  |  |  |
+| 9 |  |  | &#10004; |  |  |  |
 | 10 |  |  |  |  |  |  |
