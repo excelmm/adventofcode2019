@@ -9,7 +9,7 @@ using namespace std;
 int intCode (std::vector<int>&, int, int, int*);
 
 int main() {
-    std::ifstream myfile("C:\\Users\\Excel PC\\Documents\\GitHub\\excelmm\\adventofcode2019\\07\\input.txt");
+    std::ifstream myfile("input.txt");
     std::stringstream rawinput;
     rawinput << myfile.rdbuf();
 
