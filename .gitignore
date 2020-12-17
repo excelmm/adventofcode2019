@@ -1,6 +1,6 @@
 .vscode
 .idea
-.exe
+*.exe
 # Compiled class file
 *.class
 
