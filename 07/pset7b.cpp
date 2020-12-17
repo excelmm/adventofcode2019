@@ -56,7 +56,6 @@ int main() {
         int programinput = 0;
         int tempconfig = configs[i];
         int config[5] = {tempconfig % 10, (tempconfig / 10) % 10, (tempconfig / 100) % 10, (tempconfig / 1000) % 10, tempconfig / 10000};
-        cout << tempconfig << endl;
         bool first_loop = true;
         bool halted = false;
         bool forced_halt = false;
