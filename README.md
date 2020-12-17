@@ -5,15 +5,15 @@
 This will also be a playground for me to learn new languages. I will track what problems i did in which languages below:
 
 
-| Problem Set | Java | Go | C++ | Kotlin | Rust | JS |
-| -- | -- | -- | -- | -- | -- | -- |
-| 1 | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  |  |
-| 2 | :heavy_check_mark: |  |  |  |  |  |
-| 3 | :heavy_check_mark: |  |  |  |  |  |
-| 4 |  | :heavy_check_mark: |  |  |  |  |
-| 5 |  |  |  | :heavy_check_mark: |  |  |
-| 6 |  | 1/2 |  |  |  |  |
-| 7 |  |  | :heavy_check_mark: |  |  |  |
-| 8 |  |  |  |  |  | :heavy_check_mark: |
-| 9 |  |  | &#10004; |  |  |  |
-| 10 |  |  |  |  |  |  |
+| Problem Set | Java | Go  | C++      | Kotlin   | Rust     | JS       |
+| -- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 1  | &#10004; | &#10004; |          | &#10004; |          |          |
+| 2  | &#10004; |          |          |          |          |          |
+| 3  | &#10004; |          |          |          |          |          |
+| 4  |          | &#10004; |          |          |          |          |
+| 5  |          |          |          | &#10004; |          |          |
+| 6  |          | 1/2      |          |          |          |          |
+| 7  |          |          | &#10004; |          |          |          |
+| 8  |          |          |          |          |          | &#10004; |
+| 9  |          |          | &#10004; |          |          |          |
+| 10 |          |          |          |          |          |          |
