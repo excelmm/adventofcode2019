@@ -96,14 +96,14 @@ class IntCode (computer: LongArray) {
                 7L -> {
                     val par1 = getParameter(index + 1, (currentOpCode / 100) % 10)
                     val par2 = getParameter(index + 2, (currentOpCode / 1000) % 10)
-                    val par3 = getDestination(index + 3, (currentOpCode / 1000) % 10)
+                    val par3 = getDestination(index + 3, (currentOpCode / 10000) % 10)
                     computerInUse[par3.toInt()] = if (par1 < par2) 1 else 0
                     index += 4
                 }
                 8L -> {
                     val par1 = getParameter(index + 1, (currentOpCode / 100) % 10)
                     val par2 = getParameter(index + 2, (currentOpCode / 1000) % 10)
-                    val par3 = getDestination(index + 3, (currentOpCode / 1000) % 10)
+                    val par3 = getDestination(index + 3, (currentOpCode / 10000) % 10)
                     computerInUse[par3.toInt()] = if (par1 == par2) 1 else 0
                     index += 4
                 }
