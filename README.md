@@ -15,5 +15,5 @@ This will also be a playground for me to learn new languages. I will track what 
 | 6   |          | 1/2      |          |          |          |          |
 | 7   |          |          | &#10004; | &#10004; |          |          |
 | 8   |          |          |          |          |          | &#10004; |
-| 9   |          |          | &#10004; |          |          |          |
+| 9   |          |          | &#10004; | &#10004; |          |          |
 | 10  |          |          |          |          |          |          |
