@@ -10,8 +10,8 @@ fun main() {
     val computer = rawInput.map{ it.toLong() }.toLongArray()
     val middle = floor((SIZEOFGRID / 2).toDouble()).toInt()
 
-    var spaceA = ArrayList<ArrayList<Panel>>()
-    var spaceB = ArrayList<ArrayList<Panel>>()
+    val spaceA = ArrayList<ArrayList<Panel>>()
+    val spaceB = ArrayList<ArrayList<Panel>>()
     for (i in 0 until SIZEOFGRID) {
         val row = ArrayList<Panel>()
         for (j in 0 until SIZEOFGRID) {
@@ -24,16 +24,10 @@ fun main() {
     val bigComputer = LongArray(10000)
     for (i in bigComputer.indices) bigComputer[i] = if (i < computer.size) computer[i] else 0
 
-    val robotA = Robot(middle, middle, bigComputer, spaceA, "partA")
+    val robotA = Robot(middle, middle, bigComputer, spaceA, "black")
     while (true) {
         robotA.runComputer()
         if (robotA.isDone()) break
-    }
-
-    val robotB = Robot(middle, middle, bigComputer, spaceB, "partB")
-    while (true) {
-        robotB.runComputer()
-        if (robotB.isDone()) break
     }
 
     var countA = 0
@@ -43,6 +37,12 @@ fun main() {
         }
     }
     println(countA)
+
+    val robotB = Robot(middle, middle, bigComputer, spaceB, "white")
+    while (true) {
+        robotB.runComputer()
+        if (robotB.isDone()) break
+    }
 
     var countB = 0
     for (i in spaceA) {

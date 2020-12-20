@@ -1,14 +1,14 @@
 import kotlin.system.exitProcess
 
-class Robot (private var x : Int, private var y : Int, computerInput : LongArray, val space: ArrayList<ArrayList<Panel>>, val part : String){
+class Robot (private var x : Int, private var y : Int, computerInput : LongArray, private val space: ArrayList<ArrayList<Panel>>, private val startingColor : String){
 
     private val computer = IntCode(computerInput)
     private val directions : Array<String> = arrayOf("up", "right", "down", "left")
-    var dIndex = 0
-    var currentPanel = space[y][x]
+    private var dIndex = 0
+    private var currentPanel = space[y][x]
 
     init {
-        if (part == "part A") currentPanel.color = "black" else "white"
+        currentPanel.color = startingColor
     }
 
     private fun move(direction: String) {
