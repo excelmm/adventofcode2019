@@ -17,3 +17,9 @@ This will also be a playground for me to learn new languages. I will track what 
 | 8   |          |          |          |          |          | &#10004; |
 | 9   |          |          | &#10004; | &#10004; |          |          |
 | 10  |          |          |          |          |          |          |
+| 11  |          |          |          | &#10004; |          |          |
+| 12  |          |          |          |          |          |          |
+| 13  |          |          |          |          |          |          |
+| 14  |          |          |          |          |          |          |
+| 15  |          |          |          |          |          |          |
+| 16  |          |          |          |          |          |          |
